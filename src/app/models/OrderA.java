@@ -7,7 +7,7 @@ public class OrderA extends Order {
     }
 
     @Override
-    public double getOrderCost(double quota, double price) {
+    public double getOrderCost(int quota, double price) {
         return quota * price;
     }
 }

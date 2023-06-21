@@ -8,7 +8,7 @@ public abstract class Order {
         this.code = code;
     }
 
-    public abstract double getOrderCost(double quota, double price);
+    public abstract double getOrderCost(int quota, double price);
 
     public String getCode() {
         return code;
