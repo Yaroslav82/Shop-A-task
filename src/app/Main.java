@@ -26,7 +26,7 @@ public class Main {
     private static void filterOption(int option) {
         switch (option) {
             case 1 -> {
-                controller = new OrderAController();
+                OrderAController controller = new OrderAController();
                 controller.handleData();
             }
             case 2 -> {
