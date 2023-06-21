@@ -2,6 +2,7 @@ package app;
 
 import app.controllers.OrderAController;
 import app.controllers.OrderBController;
+import app.controllers.OrderController;
 
 import java.util.Scanner;
 
@@ -26,11 +27,11 @@ public class Main {
     private static void filterOption(int option) {
         switch (option) {
             case 1 -> {
-                OrderAController controller = new OrderAController();
+                OrderController controller = new OrderAController();
                 controller.handleData();
             }
             case 2 -> {
-                OrderBController controller = new OrderBController();
+                OrderController controller = new OrderBController();
                 controller.handleData();
             }
         }
