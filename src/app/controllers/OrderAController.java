@@ -19,7 +19,8 @@ public class OrderAController extends OrderController {
 
         String cost = getCost(product, data);
 
-        String output = "\nOrder " + code + " is USD " + cost;
+        String output = "\nOrder " + code + " is USD " +
+                cost + "\nAddress: " + data[3];
 
         view.getOutput(output);
     }
