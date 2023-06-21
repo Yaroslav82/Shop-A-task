@@ -5,8 +5,8 @@ import app.models.OrderB;
 import app.utils.Rounder;
 import app.views.OrderBView;
 
-public class OrderBController {
-
+public class OrderBController extends OrderController {
+    @Override
     public void handleData() {
 
         OrderBView view = new OrderBView();
