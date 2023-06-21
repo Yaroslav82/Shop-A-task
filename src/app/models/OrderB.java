@@ -9,6 +9,7 @@ public class OrderB extends Order {
         this.delivery = delivery;
     }
 
+    @Override
     public double getOrderCost(double quantity, double price) {
         return  quantity * price + delivery;
     }

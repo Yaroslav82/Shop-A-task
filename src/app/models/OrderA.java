@@ -6,7 +6,8 @@ public class OrderA extends Order {
         super(code);
     }
 
-    public double getOrderCost(int quota, double price) {
+    @Override
+    public double getOrderCost(double quota, double price) {
         return quota * price;
     }
 }
