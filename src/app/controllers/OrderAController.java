@@ -16,7 +16,7 @@ public class OrderAController {
 
         String cost = Rounder.roundValue(
                 product.getOrderCost(Integer.parseInt(data[1]),
-                Double.parseDouble(data[2]))
+                        Double.parseDouble(data[2]))
         );
 
         String output = "\nOrder " + data[0] + " is USD " + cost;

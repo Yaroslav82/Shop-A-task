@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class OrderAView {
 
-    public String getData() {
+    public String[] getData() {
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter order code: ");
